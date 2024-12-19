@@ -13,7 +13,9 @@
   # You should not change this value, even if you update Home Manager. If you do
   # want to update the value, then make sure to first check the Home Manager
   # release notes.
-  home.stateVersion = "24.05"; # Please read the comment before changing.
+  home.stateVersion = "24.11"; # Please read the comment before changing.
+  home.enableNixpkgsReleaseCheck = false;
+
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
@@ -25,6 +27,12 @@
     pkgs.arandr
     pkgs.telegram-desktop
     pkgs.nicotine-plus
+    pkgs.strawberry
+    pkgs.gparted
+    pkgs.ventoy
+    pkgs.rustdesk
+    pkgs.qbittorrent
+    pkgs.copyq
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
