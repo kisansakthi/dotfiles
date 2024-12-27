@@ -33,6 +33,13 @@
     pkgs.rustdesk
     pkgs.qbittorrent
     pkgs.copyq
+    pkgs.super-productivity
+    pkgs.nodejs_22
+    pkgs.neofetch
+    pkgs.screenkey
+    pkgs.bmon
+    pkgs.ollama
+    pkgs.nvtop
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
@@ -79,6 +86,7 @@
       update = "cd ~/.dotfiles/ ; nix flake update ; sudo nixos-rebuild switch --flake . ; cd ";
       home = "cd ~/.dotfiles/ ; home-manager switch --flake . ; cd";
       ehome = "cd ~/.dotfiles/ ; lvim home.nix";
+      rKitty = "kill -SIGUSR1 $(pidof kitty)";
     };
     # history = {
     #   size = 10000;
