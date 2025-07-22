@@ -1,0 +1,27 @@
+[general]
+import = [
+    "~/.config/alacritty/theme/themes/gruvbox_dark.toml"
+]
+
+[window]
+
+opacity = 0.7
+
+padding.x = 10
+padding.y = 10
+
+decorations = "None"
+decorations_theme_variant = "Dark"
+# startup_mode = "Maximized"
+# startup_mode = "SimpleFullscreen"
+
+[font]
+
+normal = { family = "FiraCode Nerd Font Mono", style = "Regular" }
+
+# normal.family = "Fira Code"
+# bold.family = "Cascadia Code PL"
+# italic.family = "Cascadia Code PL"
+# bold_italic.family = "Cascadia Code PL"
+
+size = 20.0
